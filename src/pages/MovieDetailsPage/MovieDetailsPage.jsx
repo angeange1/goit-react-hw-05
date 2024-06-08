@@ -1,7 +1,7 @@
 import { useParams, useLocation } from "react-router-dom"
 import { Suspense, useEffect, useState, useRef } from "react"
 import { Link, Outlet } from "react-router-dom"
-import { getMovieById } from "../../../movies-api"
+import { getMovieById } from "../../movies-api"
 import css from "./MovieDetailsPage.module.css"
 
 const MovieDetailsPage = () => {

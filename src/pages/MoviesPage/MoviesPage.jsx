@@ -24,7 +24,7 @@ const MoviesPage = () => {
         e.target.reset()
     }
 
-    const handleSearch = async (queryValue) => {
+    const handleSearch = (queryValue) => {
         if (queryValue === "") { return }
         searchParams.set("query", queryValue)
         setSearchParams(searchParams)
